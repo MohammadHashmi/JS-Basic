@@ -1,8 +1,13 @@
-//Create a function that prints out all the multiples of a number
-function multiply(num) {
-    for (i = 0; i < 12; i++){
-        console.log(i*num)
+//Create a function that asks for the number of and length of each time table then logs them
+//E.g. multiply(11, 10); will log 11 times tables all the way to their 10th multiple
+function multiply(num, length) {
+    for(l = 0; l <= num; l++){
+        for (i = 1; i <= length; i++){
+            console.log(l*i)
+        }
+        console.log('')
     }
+    
 }
 
-multiply(11);
+multiply(11, 10);
