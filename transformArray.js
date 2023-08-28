@@ -10,4 +10,4 @@ function map(arr, fn) {
     return newArr;
 }
 
-console.log(map([1,2,3], function plusI(n, i) { return n + i }));
+console.log(map([1,2,3], function plusone(n) { return n + 1; }));
